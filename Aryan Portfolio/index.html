@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aryan Verma</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        .bgimg {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('New folder\15.jpeg')repeat 0 0 ;
+            min-height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar with image -->
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+        <div class="bgimg"></div>
+    </nav>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge"
+        style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+            style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Portfolio</a>
+            <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+        <!-- Menu icon to open sidebar -->
+        <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+            onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <!-- Header -->
+        <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+            <h1 class="w3-jumbo"><b>Aryan Verma</b></h1>
+            <p>Student.</p>
+            <img src="New folder\12.jpeg" class="w3-image w3-hide-large w3-hide-small w3-round"
+                style="display:block;width:60%;margin:auto;">
+            <img src="New folder\12.jpeg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000"
+                height="1333">
+            <a href="New folder\AryanVerma-Resume.pdf" download><button
+                    class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+                    <i class="fa fa-download"></i> Download Resume</button>
+            </a>
+        </header>
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-32 w3-content" id="portfolio">
+            <h2 class="w3-text-grey">My Portfolio</h2>
+            <hr class="w3-opacity">
+
+            <!-- Grid for photos -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <img src="New folder\3.jpeg" style="width:100%">
+                    <img src="New folder\7-min.jpeg" style="width:100%">
+                    <img src="New folder\6.jpeg" style="width:100%">
+                    <img src="New folder\14.JPG" style="width:100%">
+                </div>
+
+                <div class="w3-half">
+                    <img src="New folder\1.jpeg" style="width:100%">
+                    <img src="New folder\9.jpeg" style="width:100%">
+                    <img src="New folder\5.jpeg" style="width:100%">
+                    <img src="New folder\10.jpeg" style="width:100%">
+                    <img src="New folder\13.jpeg" style="width:100%">
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+            <h2>About</h2>
+            <hr class="w3-opacity">
+            <p>Greetings! I am Aryan Verma, an 18-year-old student on a transformative academic journey. My scholastic
+                voyage commenced at Don Bosco Academy, Patna, where I successfully completed my 10th grade.
+                Subsequently, I pursued my higher secondary education at St. Michael's High School, Patna, culminating
+                in the successful completion of my 12th grade. Presently, I find myself immersed in the dynamic realm of
+                Computer Science and Engineering as I pursue my undergraduate degree at Vellore Institute of Technology,
+                Vellore. This academic pursuit not only fuels my intellectual curiosity but also propels me towards a
+                future where innovation and technology converge to shape our world.<br><br>
+
+                I'm a versatile person who likes to keep things balanced and enjoys a good laugh. I handle my studies,
+                work, and
+                downtime without going to extremes. I appreciate the occasional drink, smoking and socializing, finding
+                joy in life's simple
+                pleasures.
+
+                I'm a tech enthusiast, loving to dive into the world of computers and coding, especially when I need a
+                break.
+                Outside of the digital realm, I find happiness in exploring new places, cafe hopping, going on hikes,
+                and soaking in the sights.<br><br>
+
+                In a nutshell, I'm just someone who enjoys a mix of everything and finds happiness in the little things
+                in life.
+            </p>
+            <h3 class="w3-padding-16">My Skills</h3>
+            <p class="w3-wide">Web Developing</p>
+
+            <p class="w3-wide">Web Design</p>
+
+            <p class="w3-wide">Programming</p>
+
+            <p class="w3-wide">Fitness</p>
+
+            <p class="w3-wide">Photography</p>
+
+            <p class="w3-wide">Photoshop</p>
+
+            <p class="w3-wide">Communication</p>
+
+
+            <a href="New folder\AryanVerma-Resume.pdf" download><button
+                    class="w3-button w3-light-grey w3-padding-large w3-section">
+                    <i class="fa fa-download"></i> Download Resume
+                </button></a>
+
+
+            <!-- End About Section -->
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+            <h2>Contact Me</h2>
+            <hr class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> India</p>
+                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: aryanverma9704@gmail.com</p>
+            </div>
+
+            <!-- Image of location/map -->
+            <img src="New folder\11.png" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+
+            <p>Lets get in touch. Send me a message:</p>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name">
+                </p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required
+                        name="Email"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required
+                        name="Subject"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required
+                        name="Message"></p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+
+            <i class="fa fa-instagram w3-hover-opacity">
+                <a href="https://www.instagram.com/aryanverma_._?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">Instagram</a>
+            </i>
+            <br>
+
+            <i class="fa fa-snapchat w3-hover-opacity">
+                <a href="https://t.snapchat.com/gNduWSjE">Snapchat</a>
+            </i>
+            <br>
+
+            <i class="fa fa-linkedin w3-hover-opacity">
+                <a
+                    href="https://www.linkedin.com/in/aryan-verma-867933279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
+            </i>
+            <br><br>
+
+            <p class="w3-small">
+                Feel free to reach out to me through the provided social links above. I welcome connections and look
+                forward to engaging with you.<br><br>
+                This website was made by me, do let me know if I can improve it in any way.
+            </p>
+            <!-- End footer -->
+        </footer>
+        <!-- END PAGE CONTENT -->
+    </div>
+
+    <script>
+        // Open and close sidebar
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
